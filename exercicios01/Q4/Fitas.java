@@ -18,8 +18,10 @@ public class Fitas {
     public double getValorAluguel(int numeroDeDiasAlugada) {
         return precoPorDia * numeroDeDiasAlugada;
     }
+       
 
     public String toString(){
-        return String.format("FitaVideo [Titulo: %s, Preco/dia: R$%.2f]", titulo, precoPorDia);
+        double total = getValorAluguel(4);
+        return String.format("FitaVideo [Titulo: %s, Preco/dia: R$%.2f]%n [Se a fita for alugada por 4 dias custara %.2f]", titulo, precoPorDia, total);
     }
 }
