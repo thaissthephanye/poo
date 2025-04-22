@@ -17,6 +17,36 @@ public class Funcionario {
         this.salario = salario;
     }
 
+    public int getCodigo(){
+        return codigo;
+    }
+    public String getNome(){
+        return nome;
+    }
+    public int getCPF(){
+        return CPF;
+    }
+    public String getEndereco(){
+        return endereco;
+    }
+    public int getTelefone(){
+        return telefone;
+    }
+    public int getIdade(){
+        return idade;
+    }
+    public float getSalario(){
+        return salario;
+    }
+
+    public void setCodigo(int codigo){
+        this.codigo = codigo;
+    }
+
+    // public float calculaSalarioLiquido(){
+    //     float liquido = salario - ;
+    // }
+
     
 
 }
